@@ -9,6 +9,7 @@ public class CheckPermutation{
         System.out.println("Test case 1 (ABCA, CBAA): " + checkPermutation("ABCA", "CBAA"));
         System.out.println("Test case 2 (QWTGHBW, DAPXLQI): " + checkPermutation("QWTGHBW", "DAPXLQI"));
         System.out.println("Test case 3 (QWERT, TREWQ): " + checkPermutation("QWERT", "TREWQ"));
+        System.out.println("Test case 4 (god   , dog): " + checkPermutation("god   ", "dog"));
     }
 
     public static boolean checkPermutation(String input1, String input2){
