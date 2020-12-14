@@ -14,14 +14,12 @@ class Node {
 
     public void append(int[] value) {               // function to append the linkedlist
         Node current = this;
-        Node temp = new Node();
 
         while (current.next != null) {
             current = current.next;
         }
         for (int i = 0; i < value.length; i++){
-            temp = new Node(value[i]);
-            current.next = temp;
+            current.next = new Node(value[i]);
             current = current.next;
         }
     }
